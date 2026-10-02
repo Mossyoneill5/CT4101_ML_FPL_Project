@@ -1,0 +1,5 @@
+# Virtual environment (recreatable from requirements.txt)
+.venv/
+
+# Dataset — not committed; see data/README.md for download instructions
+data/players_2025_26.csv
