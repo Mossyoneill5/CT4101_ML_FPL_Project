@@ -3,3 +3,6 @@
 
 # Dataset — not committed; see data/README.md for download instructions
 data/players_2025_26.csv
+
+__pycache__/
+*.pyc
