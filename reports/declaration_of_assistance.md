@@ -1,0 +1,1 @@
+I used Visual Studio Code IDE with its Github Copilot assistant and ChatGPT as support tools. These tools were used to assist with code completion, function suggestions (including the data path in read_data.py), improve my understanding of machine learning concepts such as data leakage, evaluation metrics, cross validation and other ML concepts.    
