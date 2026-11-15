@@ -8,9 +8,11 @@ Licence: CC0: Public Domain
 
 Version: 239  
 
-The dataset was downloaded from Kaggle and the players CSV file was renamed to `players_2025_26.csv`. The CSV file is not included in this repository. To reproduce the project, download the dataset from Kaggle reanme it to  `players_2025_26.csv` and place it in this folder. 
+The dataset was downloaded from Kaggle and the players CSV file was renamed to `players_2025_26.csv`. The CSV file is included in this repository. 
 
-## Download 
+## Download (Optional)
+
+The dataset is included in this repository but can be downloaded from Kaggle if you wish:
 
 1. Open the Kaggle dataset page: (a Kaggle account is needed.)  
 
@@ -27,10 +29,4 @@ The dataset was downloaded from Kaggle and the players CSV file was renamed to `
         data/players_2025_26.csv  
 
 ## Preparation  
-No manual preparation of the data file is needed. Just put the downloaded file as
-`data/players_2025_26.csv` in the data/ directory and all the preparation is done in the code.  
-Do not edit the file by hand or the program may not work.  
-
-## Note  
-
-The dataset `players_2025_26.csv` is listed in .gitignore, so it is not pushed to the git repository. Download it as above.
+No manual preparation of the data file is needed. All the preparation is done in the code. Do not edit the file by hand or the program may not work.  

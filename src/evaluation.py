@@ -20,4 +20,6 @@ def cv_model(model, X_train, y_train):
         "MAE": -scores["test_MAE"],
         "RMSE": -scores["test_RMSE"],
         "R2": scores["test_R2"],
+        "fit_time": scores["fit_time"],
+        "score_time": scores["score_time"]
     } 
