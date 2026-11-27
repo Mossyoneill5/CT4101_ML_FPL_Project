@@ -1,4 +1,5 @@
 from sklearn.model_selection import KFold, cross_validate
+import pandas as pd
 
 def cv_model(model, X_train, y_train):
 
@@ -22,4 +23,15 @@ def cv_model(model, X_train, y_train):
         "R2": scores["test_R2"],
         "fit_time": scores["fit_time"],
         "score_time": scores["score_time"]
-    } 
+    }
+
+def create_bands(actual):
+    max_value = actual.max()
+
+    bands = pd.cut(actual,
+                   bins=[0, 30, 80, max_value],
+                   labels=["Low (0-30)", "Medium (30-80)", "High (80+)"],
+                   include_lowest=True
+                   )
+
+    return bands
